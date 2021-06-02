@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}header{
+    display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	flex-direction:row;
+	flex-wrap:wrap;
+
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header, footer {
+    width: 100%;
+    margin: auto;
+    
+    background: #38b2b4;/*HERE*/
+}
+.logo img{
+    height: 6.25rem;
+    width: auto;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.izq{
+    display: flex;
+    justify-content: flex-start;
+}
+.der{
+    display: flex;    
+    justify-content: flex-end;
+    padding: 10px;
+}
+.menu{
+    /*display: block;
+    float: left;
+    padding: 1.5625rem;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ul, li{
+    list-style: none;
+}
+.menu li a{
+    color: black;/*HERE*/
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.menu li .enlace-tematicas {
+    z-index: 1;
+}
+.menu li ul li a{
+    background: #194373;
+    color: #fff;
+    /**/
+}
+.menu li ul li a:hover{
+    background: #16f7f7;/*HERE*/
+    color: #fff;
+}
+/*
+.menu li ul li ul li a:hover{
+    background: red;/*HERE*/
+  /*  color: #fff;*/
+
+
+.menu > li{
+    float: left;
+}
+.menu li ul{
+    display: none;
+    position: absolute; /*HERE*/
+    min-width: 150px;
+    z-index: 2;
+}
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu li ul li {
+    position: relative;/*para arreglor las pos de los subs*/
+    z-index: 3;/*HERE*/
+}
+.menu li ul li ul{
+    right: -9.375rem;
+    top:0rem;
+}
+/*-------------------*/
+
+/*-------------------*/
+/* Buscador*/
+/*-------------------*/
+.buscador {
+    display: flex;
+    align-items: center;
+}
+.buscador .input-bsc {
+    width: 13.75rem;
+    background-color: #fff;
+    border: solid 0rem;
+    outline: none;
+    text-align: center;
+    border-radius: 1.875rem;
+    padding: 10px 10px 10px 10px;
+}
+.buscador .btn-buscar {
+    width: auto;
+    background-color: #194373;
+    border: solid 0rem;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px 15px;
+}
+.input-bsc, .btn-buscar{
+    font-size: 14px;
+}
+.buscador .btn-buscar:hover{
+    background:#00b4bd;
+}
+/*BOTON CITA*/
+.boton-citas-padre{
+    height: 100px;
+    display: block;
+    width: 100%;
+    background-color:#e271dd;
+    
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto-citas{
+    float: left;
+}
+.texto-citas{
+    padding: 10px 20px;
+}
+.texto-citas h2{
+    padding: 0xp 0px 8px 0px;
+    color: #00309e;
+}
+.texto-citas p{
+    font-size: 15px;
+}
+.enlace-citas a{
+    display: block;
+    padding: 15px;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 30px;
+    background: #00309e;
+    letter-spacing: 2xp;
+    margin: 25px;
+        
+}
+.enlace-citas a:hover{
+    box-shadow: 0 0 15px 0 #000;
+}
+
+/*PRESENTACION*/
+section{
+    width: 100%;
+    max-width: 1280px;
+    margin:0px auto;
+}
+/*Contenedor Video y Audio*/
+.contenedor-audio-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300spx;
+    background: #c7cfd1;
+}
+.contenedor-presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300spx;
+    background: #e271dd;
+}
+.parrafo{
+    padding: 0 1em;
+    max-width: 650px;
+    margin:auto;
+}
+.cont-imagenes{
+    display: flex;
+    float: left;
+}
+.ext{
+    max-width: 350px;
+    display: block;
+    float:right;
+    margin: 0 0 1em 1em;
+}
+.page-header{
+    overflow: hidden;
+    background: #444;
+    padding: 1em 0 0;
+}
+.page-header .center-contents{
+    max-width: 650px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    max-width: 60px;
+    display: block;
+    float: left;
+    margin: 0 0 1em 1em;
+}
+.logo img{
+    display: block;
+}
+.page-nav{
+    color: #fff;
+    float: right;
+}
+.page-nav ul, .page-nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.page-nav a{
+    color: #fff;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/****************
+    MAIN CONTENTS
+*********************/
+.page-contents{
+    padding: 0 1em;
+    max-width: 650px;
+    margin: auto;
+}

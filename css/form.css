@@ -1,0 +1,16 @@
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont-formulario{
+    background: rgb(77, 239, 245);
+    margin: 100px;
+    border: black 2px solid;
+    padding: 50px;
+    float: none;
+    width:600px;
+    height: 400px;
+    text-align: center;
+    
+}
