@@ -141,7 +141,7 @@ ul li a {
 .seccion-banner {
     max-width: 1000px;
     min-height: 310px;
-    background: url(imagenes/banner_agendar_cita.png);
+    background: url("imagenes/banner_agendar_cita.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
