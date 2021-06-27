@@ -233,7 +233,7 @@ h1{
    font-size: 15px;
    margin: 30px 20px;
 }
-/*seccion de opiniones*/
+/*seccion de opiniones
 .opinion-coment{
     height: 100px;
     display: flex;
@@ -244,9 +244,9 @@ h1{
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 300spx;*/
-}
-/*Opiniones*/
+    height: 300spx;
+}*/
+/*Opiniones
 
 
 .enlace-opiniones a{
@@ -293,7 +293,7 @@ h1{
     float: left;
     margin: 50px;
     
-}
+}*/
 footer{
     height: 40px;
     display: flex;
