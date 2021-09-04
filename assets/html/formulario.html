@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../css/form.css">
+<title>Formulario para agendar cita</title>
+</head>
+    <body class="cont-formulario">
+        <form class="cont-preguntas" action="datos.php" method="post" id="form" oninput="range_control_value.value = range_control.valueAsNumber">
+
+            <p>
+                Nombre: <input type="text" name="nombreUsuario" autofocus required />
+                <br />
+
+                Correo Electrónico: <input type="correo" name="correo" required />
+                <br />
+
+                Sexo: <br>
+                    <input type="radio" name="sexo" value="Masculino">Masculino<br>
+                    <input type="radio" name="sexo" value="Femenino">Femenino<br>
+
+                Fecha: <input type="date" name="fecha" />
+                <br />
+
+                Teléfono: <input type="tel" name="telefono" />
+                <br />
+
+                Hora: <input type="time" name="hora" />
+                <br />
+
+                <input type="submit" value="Submit!" />
+            </p>
+        </form>
+    </body>
+</html>
