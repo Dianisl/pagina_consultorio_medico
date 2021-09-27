@@ -10,10 +10,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Consultorio Dental Guadalupe</title>
 
-        <!-- css -->
+        <!-- CSS -->
         <!-- mobile-->
-        
-        <!-- tablet-->
+        <link rel="stylesheet" media="(min-width: 400px)" type="text/css" href="./assets/css/mobile_tablet_styles.css"/>
         
         <!-- pc -->
         <link rel="stylesheet" media="(min-width: 1024px)" type="text/css" href="./assets/css/pc-estilos.css"/>
@@ -25,10 +24,26 @@
         
         <!-- ICONS -->
         <script src="https://kit.fontawesome.com/d0732293de.js" crossorigin="anonymous"></script>
+
+        <!-- JS -->
+        <script src="/assets/js/menu.js" defer></script>
     </head>
     <body class="fondo">       
         <header>
              <!-- MENU -->
+             <nav class="menu">
+                <label class="logo"><img src="./assets/img/logotipo-ver2.png" alt="logotipo"></label>
+                <ul class="menu_items">
+                    <li><a href="#home"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#servicios"><i class="fas fa-toolbox"></i> Servicios</a></li>
+                    <li><a href="#galeria"><i class="far fa-image"></i> Galeria</a></li>
+                    <li><a href="#agendar-cita"><i class="far fa-calendar"></i> Agendar</a></li>
+                </ul>
+                <span class="btn_menu">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </nav>
+            <!-- 
             <nav class="navegacion">
                <div class="logo">
                    <img src="./assets/img/logotipo-ver2.png" alt="">
@@ -43,6 +58,8 @@
                    </ul>
                </div>                    
             </nav>
+
+            -->
         </header>
 
         <!-- BOTON UP -->
@@ -77,75 +94,75 @@
                     <!--CONTENEDOR SERVICIOS-->
                     <div class="contenedor-servicios">
                         <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_1_Implantes_dentales.png" alt="Servicio Implantes Dentales">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_1_Implantes_dentales.png" class="servicio__imagen" alt="Servicio Implantes Dentales">
                             </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Implantes dentales</h5>
-                            </div>
-                        </div>
-                        <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_2_Profilaxis_dental.png" alt="Servicio Implantes Dentales">
-                            </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Profilaxis dentales</h5>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Implantes dentales</h5>
                             </div>
                         </div>
                         <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_3_Protesis_fijas.png" alt="Servicio Implantes Dentales">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_2_Profilaxis_dental.png" class="servicio__imagen" alt="Servicio Implantes Dentales">
                             </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Implantes dentales</h5>
-                            </div>
-                        </div>
-                        <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_4_Blanqueamiento.png" alt="Servicio Implantes Dentales">
-                            </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Implantes dentales</h5>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Profilaxis dentales</h5>
                             </div>
                         </div>
                         <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_5_Carillas_dentales.png" alt="Servicio Implantes Dentales">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_3_Protesis_fijas.png" class="servicio__imagen" alt="Servicio Implantes Dentales">
                             </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Implantes dentales</h5>
-                            </div>
-                        </div>
-                        <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_6_Cirugias_3er_molar.png" alt="Servicio Implantes Dentales">
-                            </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Implantes dentales</h5>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Implantes dentales</h5>
                             </div>
                         </div>
                         <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_7_endodoncia.png" alt="Servicio Implantes Dentales">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_4_Blanqueamiento.png" class="servicio__imagen" alt="Servicio Implantes Dentales">
                             </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Implantes dentales</h5>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Implantes dentales</h5>
                             </div>
                         </div>
                         <div class="servicio">
-                            <div class="img-servicio">
-                                <img src="./assets/img/servicio_8_amalgamas.png" alt="Servicio Implantes Dentales">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_5_Carillas_dentales.png" class="servicio__imagen" alt="Servicio Implantes Dentales">
                             </div>
-                            <div class="seccion-infomacion-servicio">
-                                <i class="far fa-check-circle fa-2x"></i>
-                                <h5>Implantes dentales</h5>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Implantes dentales</h5>
+                            </div>
+                        </div>
+                        <div class="servicio">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_6_Cirugias_3er_molar.png" class="servicio__imagen" alt="Servicio Implantes Dentales">
+                            </div>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Implantes dentales</h5>
+                            </div>
+                        </div>
+                        <div class="servicio">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_7_endodoncia.png"class="servicio__imagen"  alt="Servicio Implantes Dentales">
+                            </div>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Implantes dentales</h5>
+                            </div>
+                        </div>
+                        <div class="servicio">
+                            <div class="servicio__imagen__contenedor">
+                                <img src="./assets/img/servicio_8_amalgamas.png" class="servicio__imagen" alt="Servicio Implantes Dentales">
+                            </div>
+                            <div class="servicio__informacion">
+                                <i class="far fa-check-circle fa-2x servicio__check"></i>
+                                <h5 class="servicio__nombre">Implantes dentales</h5>
                             </div>
                         </div>
                     </div>
@@ -164,7 +181,9 @@
                         </div>
                     </div>
                     <div class="img-banner">
-                        <img src="./assets/img/banner-foto-cliente_1.png" alt="foto clientes satisfechos">
+                        <video  width="43rem" controls autoplay>
+                            <source src="./assets/video/video_banner.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
                 <img src="./assets/img/wave.png" class="wave">
